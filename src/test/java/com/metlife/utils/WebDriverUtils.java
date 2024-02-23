@@ -19,6 +19,7 @@ public class WebDriverUtils {
     public static WebDriverWait wait;
     public static FileInputStream fis;
     public static Properties p;
+
     public static void init() throws IOException {
         fis = new FileInputStream("C:\\Users\\lenovo\\Downloads\\picocontainer\\src\\test\\resources\\Features\\Data.properties");
         p = new Properties();
