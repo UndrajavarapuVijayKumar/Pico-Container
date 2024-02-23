@@ -1,0 +1,29 @@
+BDD is for Acceptance testing
+BDD is basically development process
+
+Actual BDD- is for understanding the requirements
+Modified form of BDD - Writing Acceptance testing (ATDD-Acceptance Test Driven Development)
+
+1.create maven project
+2.Add Dependencies
+    1.cucumber-java
+    2.cucumber-testng
+    3.selenium
+3.Architecture of cucumber
+    1.Feature file (.feature) Gherkin code
+    2.Step definition (.java)
+    to connect the feature file and step definition we connect with RunnerTest
+
+    Feature file
+        In order to {business goal}
+        As a {role}
+        I would like to {Visible change in the application}
+    Scenario
+        1.provide scenario title
+        2.Add minimum one given, when, then
+            given-prerequisite
+            when-actions
+            then-verifications
+
+
+
